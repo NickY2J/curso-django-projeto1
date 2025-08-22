@@ -1,1 +1,0 @@
-print("Versão 2")
