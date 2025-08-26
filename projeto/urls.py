@@ -23,7 +23,6 @@ from django.http import HttpResponse
 def my_view(request):
     return HttpResponse("HOJE TEM")
     
-
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('sobre/', my_view)
