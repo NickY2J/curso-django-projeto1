@@ -13,7 +13,10 @@
             "args": [
                 "runserver"
             ],
-            "django": true
-        }
-    ]
+            "django": true,
+            "env": {
+              "PYTHONPATH": "${workspaceFolder}"
+      },
+    }
+  ]
 }
